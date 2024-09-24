@@ -1,1 +1,22 @@
+* {
+    margin: 0px;
 
+
+}
+
+body{
+    background-color: #1e1b4b
+
+}
+
+.header {
+    display: flex;
+    background-color: #f8fafc;
+    height: 80px;
+    box-shadow: 0px 0px 10px black
+    
+}
+#forma{
+    height: 250px;
+  
+}
