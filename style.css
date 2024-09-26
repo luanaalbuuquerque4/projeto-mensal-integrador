@@ -5,6 +5,7 @@
 }
 
 body{
+
     background-color: #1e1b4b
 
 }
@@ -14,9 +15,16 @@ body{
     background-color: #f8fafc;
     height: 80px;
     box-shadow: 0px 0px 10px black
-    
+
 }
 #forma{
     height: 250px;
   
 }
+
+.sec1{
+    display: flex;
+    height: 500px;
+
+}
+
