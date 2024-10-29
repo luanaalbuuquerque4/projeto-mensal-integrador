@@ -1,35 +1,26 @@
-* {
-    margin: 0px; /* Remove as margens padrão de todos os elementos */
+/* Modal do Formulário */
+#formModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
-body {
-    background: linear-gradient(to bottom, #a359a0 0%, #a359a0 60%, #3B4FA8 85%, #3B4FA8 100%); /* Aplica um fundo com gradiente vertical */
-    height: 100vh; /* Define a altura do corpo para 100% da altura da janela */
+#formModal form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.header {
-    display: flex; /* Utiliza flexbox para organizar o conteúdo do header */
-    background-color: #000000; /* Define a cor de fundo preta para o header */
-    height: 80px; /* Define a altura fixa do header */
-    box-shadow: 0px 0px 10px 6763a2; /* Adiciona uma sombra ao header */
-}
-
-#forma {
-    display: block; /* Faz o elemento "forma" ser exibido como bloco */
-    margin: 0 auto; /* Centraliza o elemento horizontalmente */
-    height: 350px; /* Define a altura fixa para o elemento */
-}
-
-ul {
-    display: grid; /* Exibe os itens da lista como uma grid */
-    justify-content: center; /* Centraliza os itens dentro da grid */
-}
-
-h1 {
-    text-align: center; /* Centraliza o texto dentro do h1 */
-}
-
-.logo {
-    display: block; /* Exibe a logo como bloco */
-    margin: 0 auto;
+/* Esconde a landing page inicialmente */
+#landingPage {
+    display: none;
 }

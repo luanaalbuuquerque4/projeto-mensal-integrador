@@ -1,76 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <!-- Define a codificação de caracteres como UTF-8, garantindo compatibilidade com diversos idiomas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Ajusta a escala e largura da página para ser compatível com dispositivos móveis -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Força o navegador a usar o modo mais recente disponível -->
-    <title>HTML 5 Boilerplate</title>
-    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Formulário de Acesso</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Inclui um arquivo CSS externo para a estilização da página -->
 </head>
-
 <body>
-    <script src="index.js"></script>
-    <!-- Importa um arquivo JavaScript externo, responsável pelas interações da página -->
+    <!-- Formulário Modal -->
+    <div id="formModal">
+        <form id="contatoForm">
+            <h2>Bem-vindo! Preencha para acessar a página</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
 
-    <header class="header">
-        <img id="logo" src="elementos\logo.png" alt="logo">
-        <!-- Cabeçalho com o logotipo da empresa -->
-    </header>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-    <main>
-        <!-- Elemento principal do documento -->
-        <section class="sec1">
-            <!-- Primeira seção principal -->
-            <article id="box1">
-                <!-- Artigo principal da seção -->
-                <h1 id="texto.st">Domine um novo idioma e expanda seus horizontes com a Yázigi!</h1>
-                <!-- Título promocional -->
-                <ul id="valores">
-                    <!-- Lista de valores e vantagens oferecidas -->
-                    <li>Aulas Personalizadas</li>
-                    <li>Ensino de qualidade</li>
-                    <li>Primeira matrícula com desconto</li>
-                </ul>
-                <h1 id="chamada">Entre em contato e saiba mais</h1>
-                <!-- Título para chamada à ação -->
-                <button onclick="" id="Instagram">
-                    <img src="" alt="insta">
-                    <!-- Botão que eventualmente levará ao perfil do Instagram, com uma imagem de ícone -->
-                </button>
-                <button onclick="" id="telefone">
-                    <img src="" alt="telefone">
-                    <!-- Botão de contato telefônico, com um ícone -->
-                </button>
-            </article>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
 
-            <div id="box2">
-                <!-- Div contendo um elemento visual, como uma forma abstrata -->
-                <img id="forma" src="elementos/Forma.svg" alt="forma abstrata">
-            </div>
-            
-            <div id="Bandeiras dos paises">
-                <!-- Div com bandeiras de países para destacar idiomas oferecidos -->
-                <img id="Alemanha" src="bandeiras/alemanha.png" alt="Bandeira Alemanha" width="50">
-                <img id="Espanha" src="bandeiras/espanha.png" alt="Bandeira Espanha" width="50">
-                <img id="EUA" src="bandeiras/estados-unidos.png" alt="Bandeira Estados Unidos" width="50">
-                <img id="Franca" src="bandeiras/franca.png" alt="Bandeira França" width="50">
-                <img id="Japao" src="bandeiras/japao.png" alt="Bandeira Japão" width="50">
-            </div>
-        </section>
+    <!-- Conteúdo da Landing Page -->
+    <div id="landingPage" style="display: none;">
+        <header class="header">
+            <img id="logo" src="elementos/logo.png" alt="logo">
+        </header>
+        <main>
+            <section class="sec1">
+                <article id="box1">
+                    <h1>Domine um novo idioma e expanda seus horizontes com a Yázigi!</h1>
+                    <ul id="valores">
+                        <li>Aulas Personalizadas</li>
+                        <li>Ensino de qualidade</li>
+                        <li>Primeira matrícula com desconto</li>
+                    </ul>
+                    <h1>Entre em contato e saiba mais</h1>
+                </article>
+            </section>
+        </main>
+    </div>
 
-        <section class="sec2">
-            git
-            <!-- Outra seção para conteúdo adicional -->
-        </section>
-
-    </main>
-
+    <script src="js/index.js"></script>
 </body>
-
 </html>
