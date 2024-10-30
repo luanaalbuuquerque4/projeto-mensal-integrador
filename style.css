@@ -1,4 +1,9 @@
 /* Modal do Formulário */
+*{
+    margin: 0px;
+
+}
+
 #formModal {
     position: fixed;
     top: 0;
@@ -23,4 +28,23 @@
 /* Esconde a landing page inicialmente */
 #landingPage {
     display: none;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+#sec1{
+    display: flex;
+    height: 500px;
+    background-color: #4c1d95;
+
+}
+
+#box1{
+    margin: 20px;
+    color: #e2e8f0;
 }
