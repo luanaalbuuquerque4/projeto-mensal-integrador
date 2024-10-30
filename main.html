@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Formulário de Acesso</title>
+    <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="checkForm()">
+    <!-- Conteúdo da página principal -->
+</body>
 
-    <!-- Formulário Modal -->
-    <div id="formModal">
-        <form id="contatoForm">
-            <h2>Bem-vindo! Preencha para acessar a página</h2>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <button type="submit">Entrar</button>
-        </form>
+<body onload="checkForm()">
+    <div id="form-overlay">
+        <div id="form-container">
+            <h2>Preencha o formulário para acessar</h2>
+            <form id="access-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="button" onclick="submitForm()">Enviar</button>
+            </form>
+        </div>
     </div>
 
-    <!-- Conteúdo da Landing Page -->
-    <main id="landingPage" style="display: none;">
-        <header id="header">
-            <img id="logo" src="elementos/logo.png" alt="logo">
-        </header>
+    <script src="index.js"></script>
 
-        <section id="sec1">
+    <header class="header">
+        <img id="logo" src="elementos/logo.png" alt="logo">
+    </header>
+
+    <main>
+        <section class="sec1">
             <article id="box1">
-                <h1>Domine um novo idioma e expanda seus horizontes com a Yázigi!</h1>
+                <h1 id="texto.st">Domine um novo idioma e expanda seus horizontes com a Yázigi!</h1>
                 <ul id="valores">
                     <li>Aulas Personalizadas</li>
                     <li>Ensino de qualidade</li>
                     <li>Primeira matrícula com desconto</li>
                 </ul>
-                <h1>Entre em contato e saiba mais</h1>
+                <h1 id="chamada">Entre em contato e saiba mais</h1>
+                <button onclick="" id="Instagram">
+                    <img src="" alt="insta">
+                </button>
+                <button onclick="" id="telefone">
+                    <img src="" alt="telefone">
+                </button>
             </article>
+
+            <div id="box2">
+                <img id="forma" src="elementos/Forma.svg" alt="forma abstrata">
+            </div>
+            <div id="Bandeiras dos paises">
+                <img id="Alemanha" src="bandeiras/alemanha.png" alt="Bandeira Alemanha" width="50">
+                <img id="Espanha" src="bandeiras/espanha.png" alt="Bandeira Espanha" width="50">
+                <img id="EUA" src="bandeiras/estados-unidos.png" alt="Estados Unidos da América" width="50">
+                <img id="Franca" src="bandeiras/franca.png" alt="Bandeira França" width="50">
+                <img id="Japao" src="bandeiras/japao.png" alt="Bandeira Japão" width="50">
+            </div>
+        </section>
+
+        <section class="sec2">
+            <!-- Conteúdo da seção 2 -->
         </section>
     </main>
-
-    <script src="js/index.js"></script>
 </body>
 </html>
+
