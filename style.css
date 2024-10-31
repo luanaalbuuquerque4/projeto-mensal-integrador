@@ -11,6 +11,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#planodefundo{
+    background-image: url(elementos/fundo\ customizado.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
 #botões{
     display: flex;
     justify-content: space-around;
