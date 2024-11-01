@@ -3,79 +3,84 @@
 
 <head>
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para responsividade -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Define compatibilidade com IE -->
     <title>HTML 5 Boilerplate</title> <!-- Título da página -->
     <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
 </head>
+
 <body onload="checkForm()"> <!-- Executa a função checkForm() ao carregar a página -->
     <!-- Conteúdo da página principal -->
 </body>
 <div id="planodefundo"> <!-- Div para o plano de fundo -->
-<body onload="checkForm()"> <!-- Executa novamente a função checkForm() ao carregar o body -->
-    <div id="form-overlay"> <!-- Overlay para o formulário -->
-        <div id="form-container"> <!-- Container do formulário -->
-            <h2>Preencha o formulário para acessar</h2> <!-- Título do formulário -->
-            <form id="access-form"> <!-- Formulário com id access-form -->
-                <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
-                <input type="text" id="name" name="name" required> <!-- Campo de entrada para nome, obrigatório -->
-                
-                <label for="email">Email:</label> <!-- Rótulo para o campo de email -->
-                <input type="email" id="email" name="email" required> <!-- Campo de entrada para email, obrigatório -->
-                
-                <button type="button" onclick="submitForm()">Enviar</button> <!-- Botão para enviar o formulário -->
-            </form>
-        </div>
-        
-    </div>
 
+    <body onload="checkForm()"> <!-- Executa novamente a função checkForm() ao carregar o body -->
+        <div id="form-overlay"> <!-- Overlay para o formulário -->
+            <div id="form-container"> <!-- Container do formulário -->
+                <h2>Preencha o formulário para acessar</h2> <!-- Título do formulário -->
+                <form id="access-form"> <!-- Formulário com id access-form -->
+                    <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
+                    <input type="text" id="name" name="name" required> <!-- Campo de entrada para nome, obrigatório -->
 
-    <script src="index.js"></script> <!-- Link para o arquivo JavaScript -->
+                    <label for="email">Email:</label> <!-- Rótulo para o campo de email -->
+                    <input type="email" id="email" name="email" required>
+                    <!-- Campo de entrada para email, obrigatório -->
 
-    <header class="header"> <!-- Cabeçalho da página -->
-        <img id="logo" src="elementos/logo.png" alt="logo"> <!-- Imagem do logo -->
-    </header>
-
-    <main id="conteiner"> <!-- Container principal da página -->
-        <section id="sec1"> <!-- Primeira seção -->
-            <article id="box1"> <!-- Artigo dentro da seção -->
-                <h1 class="texto">Domine um novo idioma e <BR>expanda seus horizonte<br> com a <span style="color: #a3e635;">Yázigi!</span></h1>
-                <!-- Título principal com destaque para "Yázigi" -->
-                <ul id="valores"> <!-- Lista de valores oferecidos -->
-                    <li>Aulas Personalizadas</li>  <!-- Item da lista -->
-                    <li>Ensino de qualidade</li> <!-- Item da lista -->
-                    <li>Primeira matrícula com desconto</li> <!-- Item da lista -->
-                </ul>
-                <h1 id="chamada">Entre em contato e saiba mais</h1> <!-- Chamada para ação -->
-                <div id="botões"> <!-- Div para os botões de contato -->
-                    <div id="botãoT" onclick=""> <!-- Botão de telefone -->
-                        <img src="elementos/icone-telefone.svg" alt="telefone"> <!-- Ícone de telefone -->
-                        <p style="color: black;">TELEFONE</p> <!-- Texto do botão -->
-                    </div>
-                    <div id="botãoI" onclick=""> <!-- Botão de Instagram -->
-                        <img src="elementos/icone-insta.svg" alt="Instagram"> <!-- Ícone do Instagram -->
-                        <P style="color: black;">INSTAGRAM</P> <!-- Texto do botão -->
-                    </div>
-                </div>
-            </article>
-        </section>
-
-        <section id="sec2"> <!-- Segunda seção -->
-            <!-- Conteúdo da seção 2 -->
-            <div id="box2"> <!-- Div para a segunda caixa -->
-                <img id="forma" src="elementos/Forma.svg" alt="forma abstrata"> <!-- Imagem abstrata -->
+                    <button type="button" onclick="submitForm()">Enviar</button> <!-- Botão para enviar o formulário -->
+                </form>
             </div>
-        </section>
-    </main>
-    
-    <div id="Bandeiras dos paises"> <!-- Div para exibir bandeiras -->
-        <img id="Alemanha" src="bandeiras/alemanha.png" alt="Bandeira Alemanha" width="50">
-        <img id="Espanha" src="bandeiras/espanha.png" alt="Bandeira Espanha" width="50">
-        <img id="EUA" src="bandeiras/estados-unidos.png" alt="Estados Unidos da América" width="50">
-        <img id="Franca" src="bandeiras/franca.png" alt="Bandeira França" width="50">
-        <img id="Japao" src="bandeiras/japao.png" alt="Bandeira Japão" width="50">
-    </div>
-    </div>
-</body>
-</html>
 
+        </div>
+
+
+        <script src="index.js"></script> <!-- Link para o arquivo JavaScript -->
+
+        <header class="header"> <!-- Cabeçalho da página -->
+            <img id="logo" src="elementos/logo.png" alt="logo"> <!-- Imagem do logo -->
+        </header>
+
+        <main id="conteiner"> <!-- Container principal da página -->
+            <section id="sec1"> <!-- Primeira seção -->
+                <article id="box1"> <!-- Artigo dentro da seção -->
+                    <h1 class="texto">Domine um novo idioma e <BR>expanda seus horizonte<br> com a <span
+                            style="color: #a3e635;">Yázigi!</span></h1>
+                    <!-- Título principal com destaque para "Yázigi" -->
+                    <ul id="valores"> <!-- Lista de valores oferecidos -->
+                        <li>Aulas Personalizadas</li> <!-- Item da lista -->
+                        <li>Ensino de qualidade</li> <!-- Item da lista -->
+                        <li>Primeira matrícula com desconto</li> <!-- Item da lista -->
+                    </ul>
+                    <h1 id="chamada">Entre em contato e saiba mais</h1> <!-- Chamada para ação -->
+                    <div id="botões"> <!-- Div para os botões de contato -->
+                        <div id="botãoT" onclick=""> <!-- Botão de telefone -->
+                            <img src="elementos/icone-telefone.svg" alt="telefone"> <!-- Ícone de telefone -->
+                            <p style="color: black;">TELEFONE</p> <!-- Texto do botão -->
+                        </div>
+                        <div id="botãoI" onclick=""> <!-- Botão de Instagram -->
+                            <img src="elementos/icone-insta.svg" alt="Instagram"> <!-- Ícone do Instagram -->
+                            <P style="color: black;">INSTAGRAM</P> <!-- Texto do botão -->
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="sec2"> <!-- Segunda seção -->
+                <!-- Conteúdo da seção 2 -->
+                <div id="box2"> <!-- Div para a segunda caixa -->
+                    <img id="forma" src="elementos/Forma.svg" alt="forma abstrata"> <!-- Imagem abstrata -->
+                </div>
+            </section>
+        </main>
+
+        <div id="Bandeiras dos paises"> <!-- Div para exibir bandeiras -->
+            <img id="Alemanha" src="bandeiras/alemanha.png" alt="Bandeira Alemanha" width="50">
+            <img id="Espanha" src="bandeiras/espanha.png" alt="Bandeira Espanha" width="50">
+            <img id="EUA" src="bandeiras/estados-unidos.png" alt="Estados Unidos da América" width="50">
+            <img id="Franca" src="bandeiras/franca.png" alt="Bandeira França" width="50">
+            <img id="Japao" src="bandeiras/japao.png" alt="Bandeira Japão" width="50">
+        </div>
+</div>
+</body>
+
+</html>
