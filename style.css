@@ -19,8 +19,6 @@ body {
     width: 100%; /* Largura total */
     height: 100vh; /* Altura total da janela */
 
-}
-/* Estilo para a seção de botões */
 #botões{
     display: flex; /* Usa flexbox para organizar os botões */
     justify-content: space-around; /* Distribui os botões com espaço igual ao redor */
