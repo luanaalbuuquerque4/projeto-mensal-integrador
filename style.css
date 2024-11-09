@@ -18,7 +18,7 @@ body {
     background-size: cover; /* Cobre todo o espaço disponível */
     width: 100%; /* Largura total */
     height: 100vh; /* Altura total da janela */
-
+}
 #botões{
     display: flex; /* Usa flexbox para organizar os botões */
     justify-content: space-around; /* Distribui os botões com espaço igual ao redor */
