@@ -23,6 +23,7 @@ body {
 #botões {
     display: flex;
     justify-content: space-around;
+    
 }
 
 #botãoI, #botãoT {
@@ -33,6 +34,7 @@ body {
     height: 50px;
     width: 160px;
     border-radius: 10px;
+    gap: 10px;
 }
 
 #chamada {
@@ -49,7 +51,7 @@ body {
     height: 500px;
 }
 
-#sec1, #sec2, #box2 {
+#sec1, #sec2, #box2{
     display: flex;
 }
 

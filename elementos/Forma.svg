@@ -1,11 +1,8 @@
-<!-- Rodapé com duas formas SVG -->
-<footer id="footer-image">
-    <!-- Primeira Forma SVG -->
-    <svg id="forma1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.16 256.16">
+<svg id="forma1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.16 256.16">
         <defs>
             <style>
                 .cls-1 {
-                    fill: #a3e635;
+                    fill: #f0f9ff;
                     stroke-width: 0px;
                 }
             </style>
@@ -13,4 +10,4 @@
         <g id="Camada_1-2" data-name="Camada 1">
             <path class="cls-1" d="M0,0h170.55C217.8,0,256.16,38.36,256.16,85.62v170.55H85.62C38.36,256.16,0,217.8,0,170.55V0H0Z"/>
         </g>
-    </svg>
+</svg>
