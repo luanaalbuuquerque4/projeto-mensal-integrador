@@ -24,3 +24,4 @@ function submitForm() {
         alert('Por favor, preencha todos os campos.');
     }
 }
+
